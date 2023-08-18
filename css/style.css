@@ -1,0 +1,142 @@
+#home {
+   width: 100%;
+   height: 660px;
+   background-image: url(../images/events-heavenly-header.jpg);
+   background-position: center;
+   background-size: cover;
+   position: relative;
+}
+.home-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(214, 46, 51 , 0.6);;
+
+}
+.home-content h1 {
+    font-size: 60px;
+}
+.left-menue {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: -295px;
+    bottom: 0;
+    padding: 50px;
+    width: 284px;
+    transition: .5s;
+}
+
+.left-menue a {
+   text-decoration: none;
+   color: #fff;
+   font-size: 28px;
+   display: block;
+   padding:  15px 0;
+   transition: .3s;
+   
+  
+   
+}
+.left-menue a:hover {
+    color: rgba(156, 17, 17, 0.785);
+}
+.close-btn{
+    position: absolute;
+    top: 0;
+    right: 33px;
+    padding: 15px;
+}
+#open-menu {
+    cursor: pointer;
+    position: fixed;
+    left: 18px;
+    color: black;
+    z-index: 99999;
+}
+.card-header {
+    background-color: rgba(214, 46, 51 , 0.6);;
+    color: white;
+    cursor: pointer;
+}
+.card-body {
+    background-color: #ccc;
+    color: black;
+    
+    
+}
+
+/* start making the duraton section */
+
+#duration {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    position: relative;
+    padding-bottom: 60px;
+    z-index: -1;
+    
+
+}
+#duration .due-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(214, 46, 51 , 0.6);;
+}
+
+.counter {
+    padding: 50px;
+    border: 1px solid #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.contact-info{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.social-lists{
+    color: #777;
+    
+    margin-top: 60px;
+    display: flex;
+    
+}
+.social-lists div {
+
+    margin-right: 10px;
+    border: 1px solid;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+    cursor: pointer;
+    transition: .3s;
+
+
+}
+.social-lists div:hover  {
+    background-color: #D62E33;
+    color: #fff;
+}
+
+/* start making the occord */
+
+.head-ocr {
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+}
+.body-ocr {
+    background-color: #ccc;
+}
